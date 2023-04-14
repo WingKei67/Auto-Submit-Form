@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Auto-Submit Form</title>
+</head>
+<body onload="document.forms[0].submit()">
+	<h1>Auto-Submit Form</h1>
+	<form method="POST" action="process.php">
+		<input type="hidden" name="account_id" value="123456789">
+		<input type="hidden" name="amount" value="50.00">
+	</form>
+</body>
+</html>
